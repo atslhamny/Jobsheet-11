@@ -7,12 +7,14 @@ public class percobaan2Absen04 {
         System.out.print("Masukkan nilai N : ");
         int N = sc.nextInt();
 
-        for (int i = 0; i <= N; i++) {
+        if (N>=5) {
+            for (int i = 0; i <= N; i++) {
             for (int j = 0; j <= N - i; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
         System.out.println();
+        }
     }
 }
